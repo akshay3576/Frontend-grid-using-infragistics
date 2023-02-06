@@ -1,0 +1,21 @@
+
+<div class="containtable">
+<table border="1" class="containtable">
+<thead>
+<tr>
+ <th>ID</th>
+<th>UserEmail</th>
+<th>TenantID</th>
+ <!-- <th>Advance Filter Query</th> -->
+ </tr>
+</thead>
+<tbody>
+<tr *ngFor="let data of responseObj">
+ <td>{{data.id}}</td>
+ <td>{{data.userEmail}}</td>
+ <td>{{data.tenantID}}</td>
+ <!-- <td>{{data.advancefilterquery[0].queryName}} , {{data.advancefilterquery[0].querydata}}</td> -->
+ </tr>
+ </tbody>
+ </table>
+</div>

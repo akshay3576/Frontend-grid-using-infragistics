@@ -1,0 +1,17 @@
+
+<style>
+   .center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  /* border: 3px solid green;  */
+  
+}
+    </style>
+    <div class="center">
+<button style="background-color: turquoise; border: none; border-radius: 5px; color: #333; /* Dark grey */ padding: 15px 32px"(click)="goToPage('grid')" >Grid View!</button><br>
+
+<button style="background-color: #CCEEFF ; border: none; border-radius: 5px; color: #333; /* Dark grey */ padding: 15px 32px" (click)="goToPage('table')">Table View!</button>
+</div>
+<router-outlet></router-outlet>
